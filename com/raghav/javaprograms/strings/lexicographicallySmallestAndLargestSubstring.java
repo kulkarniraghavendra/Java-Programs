@@ -54,5 +54,13 @@ public class lexicographicallySmallestAndLargestSubstring {
         } finally {
             scanner.close();
         }
+
+        //alternate solution
+        //SortedSet<String> sets=new TreeSet<String>();
+        //for(int i=0;i<=str.length()-k;i++){
+        //    sets.add(str.substring(i,i+k));
+        //}
+        //System.out.println(sets.first());
+        //System.out.println(sets.last());
     }
 }
